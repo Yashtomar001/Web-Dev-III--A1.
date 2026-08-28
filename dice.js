@@ -1,0 +1,16 @@
+// const crypto = require("crypto");
+
+// function rollDice() {
+//     return crypto.randomInt(1, 7);
+// }
+
+// console.log("Dice Rolled:", rollDice());
+const crypto = require("crypto");
+
+function rollDice() {
+    return crypto.randomInt(1, 7);
+}
+
+for (let i = 1; i <= 5; i++) {
+    console.log(`Dice ${i}:`, rollDice());
+}
